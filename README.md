@@ -1,5 +1,5 @@
 # FastLED NeoPixel Library
-[![arduino-library-badge](https://www.ardu-badge.com/badge/FastLED_NeoPixel.svg?)](https://www.ardu-badge.com/FastLED_NeoPixel) [![Build Status](https://github.com/dmadison/FastLED_NeoPixel/workflows/build/badge.svg)](https://github.com/dmadison/FastLED_NeoPixel/actions/workflows/ci.yml) [![Documentation](https://img.shields.io/badge/Docs-Doxygen-blue.svg)](http://dmadison.github.io/FastLED_NeoPixel/docs/index.html)
+[![arduino-library-badge](https://www.ardu-badge.com/badge/FastLED%20NeoPixel.svg?)](https://www.ardu-badge.com/FastLED%20NeoPixel) [![Build Status](https://github.com/dmadison/FastLED_NeoPixel/workflows/build/badge.svg)](https://github.com/dmadison/FastLED_NeoPixel/actions/workflows/ci.yml) [![Documentation](https://img.shields.io/badge/Docs-Doxygen-blue.svg)](http://dmadison.github.io/FastLED_NeoPixel/docs/index.html)
 [![GPL license](https://img.shields.io/badge/License-MIT-orange.svg)](https://github.com/dmadison/FastLED_NeoPixel/blob/master/LICENSE)
 
 
