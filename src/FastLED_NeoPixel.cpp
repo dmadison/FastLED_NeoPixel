@@ -68,7 +68,6 @@ void FastLED_NeoPixel_Variant::setPixelColor(uint16_t n, uint32_t c) {
 	leds[n] = packedToColor(c);
 }
 
-// TODO check this logic
 void FastLED_NeoPixel_Variant::fill(uint32_t c, uint16_t first, uint16_t count) {
 	if (first >= numLEDs) return;
 

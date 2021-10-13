@@ -10,4 +10,4 @@ You can generate this documentation locally by [installing Doxygen](https://www.
 doxygen Doxyfile
 ```
 
-The project is configured to use the [Doxygen Awesome theme](https://github.com/jothepro/doxygen-awesome-css/releases/tag/v1.5.0) for a more modern look. This is optional - the documentation will build successfully without these extra CSS files. To add them, clone the repository and place it into the 'docs' folder alongside the Doxyfile.
+The project is configured to use the [Doxygen Awesome theme](https://github.com/jothepro/doxygen-awesome-css) for a more modern look. This is optional - the documentation will build successfully without these extra CSS files. To add them, clone the repository and place it into the 'docs' folder alongside the Doxyfile.
