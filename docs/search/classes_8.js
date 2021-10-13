@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['outputpin_0',['OutputPin',['http://fastled.io/docs/3.1/classOutputPin.html',1,'']]]
+  ['outputpin_0',['OutputPin',['http://fastled.io/docs/3.1/class_output_pin.html',1,'']]]
 ];

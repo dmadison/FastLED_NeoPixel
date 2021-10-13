@@ -33,7 +33,7 @@
   <td id="projectlogo"><img alt="Logo" src="ws2812b_logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">FastLED NeoPixel
-   &#160;<span id="projectnumber">4b70bf5</span>
+   &#160;<span id="projectnumber">1f15d8f</span>
    </div>
   </td>
  </tr>
@@ -100,18 +100,18 @@ $(document).ready(function(){initNavTree('_fast_l_e_d___neo_pixel_8h.html',''); 
 <p>Header for the <a class="el" href="class_fast_l_e_d___neo_pixel.html" title="FastLED implementation of the Adafruit_NeoPixel class for WS2812B strips, with data.">FastLED_NeoPixel</a> library.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;Arduino.h&gt;</code><br />
-<code>#include &lt;<a class="elRef" href="https://adafruit.github.io/Adafruit_NeoPixel/html/Adafruit__NeoPixel_8h.html">Adafruit_NeoPixel.h</a>&gt;</code><br />
-<code>#include &lt;<a class="elRef" href="http://fastled.io/docs/3.1/FastLED_8h.html">FastLED.h</a>&gt;</code><br />
+<code>#include &lt;<a class="elRef" href="https://adafruit.github.io/Adafruit_NeoPixel/html/_adafruit___neo_pixel_8h.html">Adafruit_NeoPixel.h</a>&gt;</code><br />
+<code>#include &lt;<a class="elRef" href="http://fastled.io/docs/3.1/_fast_l_e_d_8h.html">FastLED.h</a>&gt;</code><br />
 </div>
 <p><a href="_fast_l_e_d___neo_pixel_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fast_l_e_d___neo_pixel___variant.html">FastLED_NeoPixel_Variant</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">FastLED implementation of the <a class="elRef" href="https://adafruit.github.io/Adafruit_NeoPixel/html/classAdafruit__NeoPixel.html">Adafruit_NeoPixel</a> class. Base class for all strips.  <a href="class_fast_l_e_d___neo_pixel___variant.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">FastLED implementation of the <a class="elRef" href="https://adafruit.github.io/Adafruit_NeoPixel/html/class_adafruit___neo_pixel.html">Adafruit_NeoPixel</a> class. Base class for all strips.  <a href="class_fast_l_e_d___neo_pixel___variant.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fast_l_e_d___neo_pixel.html">FastLED_NeoPixel&lt; NumLeds, DataPin, RgbOrder &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">FastLED implementation of the <a class="elRef" href="https://adafruit.github.io/Adafruit_NeoPixel/html/classAdafruit__NeoPixel.html">Adafruit_NeoPixel</a> class for <a class="elRef" href="http://fastled.io/docs/3.1/classWS2812B.html">WS2812B</a> strips, with data.  <a href="class_fast_l_e_d___neo_pixel.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">FastLED implementation of the <a class="elRef" href="https://adafruit.github.io/Adafruit_NeoPixel/html/class_adafruit___neo_pixel.html">Adafruit_NeoPixel</a> class for <a class="elRef" href="http://fastled.io/docs/3.1/class_w_s2812_b.html">WS2812B</a> strips, with data.  <a href="class_fast_l_e_d___neo_pixel.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
@@ -145,11 +145,11 @@ Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >constexpr function that converts an <a class="elRef" href="https://adafruit.github.io/Adafruit_NeoPixel/html/classAdafruit__NeoPixel.html">Adafruit_NeoPixel</a> color order preprocessor define into a FastLED color order enum (EOrder) for use with the FastLED library.</p>
+<p >constexpr function that converts an <a class="elRef" href="https://adafruit.github.io/Adafruit_NeoPixel/html/class_adafruit___neo_pixel.html">Adafruit_NeoPixel</a> color order preprocessor define into a FastLED color order enum (EOrder) for use with the FastLED library.</p>
 <p >For C++11 compatibility this uses chained ternaries instead of a more elegant switch statement.</p>
-<p >This accounts for all RGB <a class="elRef" href="https://adafruit.github.io/Adafruit_NeoPixel/html/classAdafruit__NeoPixel.html">Adafruit_NeoPixel</a> color orders, including both 800 KHz and 400 KHz speeds. It also handles FastLED color orders (EOrder).</p>
+<p >This accounts for all RGB <a class="elRef" href="https://adafruit.github.io/Adafruit_NeoPixel/html/class_adafruit___neo_pixel.html">Adafruit_NeoPixel</a> color orders, including both 800 KHz and 400 KHz speeds. It also handles FastLED color orders (EOrder).</p>
 <p >Although the speed values are evaluated because they modify the underlying number, passing a speed value to this function has no effect on the output speed of the FastLED library. This function purely handles color order.</p>
-<p >FastLED colors enumeration values (EOrder) are evaluated first, then high speed (default) NeoPixel color orders, then finally low speed NeoPixel color orders. If no match is found then 'GRB' color order is returned. This is the default color order used by most NeoPixel (<a class="elRef" href="http://fastled.io/docs/3.1/classWS2812B.html">WS2812B</a>) strips.</p>
+<p >FastLED colors enumeration values (EOrder) are evaluated first, then high speed (default) NeoPixel color orders, then finally low speed NeoPixel color orders. If no match is found then 'GRB' color order is returned. This is the default color order used by most NeoPixel (<a class="elRef" href="http://fastled.io/docs/3.1/class_w_s2812_b.html">WS2812B</a>) strips.</p>
 <p >RGBW color order is purposefully <em>not</em> evaluated. The FastLED library does not support RGBW and any attempts to use an RGBW strip with it are going to end badly (<a href="https://www.partsnotincluded.com/fastled-rgbw-neopixels-sk6812/">PartsNotIncluded.com hackery aside</a>). If they are passed to the function, RGBW color order defines will use the default GRB order.</p>
 <p >This function is auto-generated from a Python script. See the neo_order_generator.py script in the <code>extras</code> folder. </p>
 

@@ -33,7 +33,7 @@
   <td id="projectlogo"><img alt="Logo" src="ws2812b_logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">FastLED NeoPixel
-   &#160;<span id="projectnumber">4b70bf5</span>
+   &#160;<span id="projectnumber">1f15d8f</span>
    </div>
   </td>
  </tr>
@@ -96,7 +96,7 @@ $(document).ready(function(){initNavTree('group___unimplemented.html',''); initR
 </div><!--header-->
 <div class="contents">
 
-<p>These are the functions that are present in <a class="elRef" href="https://adafruit.github.io/Adafruit_NeoPixel/html/classAdafruit__NeoPixel.html">Adafruit_NeoPixel</a> but for technical reasons are missing in this implementation.  
+<p>These are the functions that are present in <a class="elRef" href="https://adafruit.github.io/Adafruit_NeoPixel/html/class_adafruit___neo_pixel.html">Adafruit_NeoPixel</a> but for technical reasons are missing in this implementation.  
 <a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
@@ -105,16 +105,16 @@ Functions</h2></td></tr>
 <tr class="separator:ga9c69ed867034244e709235b7b4e27e36"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaee42e6961cdf7b0d3d7289958cd0179d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___unimplemented.html#gaee42e6961cdf7b0d3d7289958cd0179d">FastLED_NeoPixel_Variant::updateLength</a> (uint16_t n)</td></tr>
 <tr class="separator:gaee42e6961cdf7b0d3d7289958cd0179d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1f0fe38a78f15916e3bc9650e21eea3d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___unimplemented.html#ga1f0fe38a78f15916e3bc9650e21eea3d">FastLED_NeoPixel_Variant::updateType</a> (<a class="elRef" href="https://adafruit.github.io/Adafruit_NeoPixel/html/Adafruit__NeoPixel_8h.html#ab88a50d51bb5488df4379ff49c81fd72">neoPixelType</a> T)</td></tr>
+<tr class="memitem:ga1f0fe38a78f15916e3bc9650e21eea3d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___unimplemented.html#ga1f0fe38a78f15916e3bc9650e21eea3d">FastLED_NeoPixel_Variant::updateType</a> (<a class="elRef" href="https://adafruit.github.io/Adafruit_NeoPixel/html/_adafruit___neo_pixel_8h.html#ab88a50d51bb5488df4379ff49c81fd72">neoPixelType</a> T)</td></tr>
 <tr class="separator:ga1f0fe38a78f15916e3bc9650e21eea3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<p >These are the functions that are present in <a class="elRef" href="https://adafruit.github.io/Adafruit_NeoPixel/html/classAdafruit__NeoPixel.html">Adafruit_NeoPixel</a> but for technical reasons are missing in this implementation. </p>
+<p >These are the functions that are present in <a class="elRef" href="https://adafruit.github.io/Adafruit_NeoPixel/html/class_adafruit___neo_pixel.html">Adafruit_NeoPixel</a> but for technical reasons are missing in this implementation. </p>
 <p >All of these functions are declared but not defined. Attempting to use them will create a compile-time error.</p>
-<p >Unlike the <a class="elRef" href="https://adafruit.github.io/Adafruit_NeoPixel/html/classAdafruit__NeoPixel.html">Adafruit_NeoPixel</a> library the FastLED library uses compile-time constants for optimization purposes. Because of this it's not easy to change LED settings such as the strip type, strip size, color order, or data pin on the fly.</p>
+<p >Unlike the <a class="elRef" href="https://adafruit.github.io/Adafruit_NeoPixel/html/class_adafruit___neo_pixel.html">Adafruit_NeoPixel</a> library the FastLED library uses compile-time constants for optimization purposes. Because of this it's not easy to change LED settings such as the strip type, strip size, color order, or data pin on the fly.</p>
 <p >Because these arguments must be known at compile-time it's not possible to use a simple member function to set them. The functions would need to use a template parameter instead of an argument, which isn't the end of the world but it breaks the "no modifications to your sketch" purpose of the library.</p>
-<p >The more significant complications is that the <a class="elRef" href="http://fastled.io/docs/3.1/classCLEDController.html">CLEDController</a> objects which send data to the strips are defined within a linked list using the FastLED.addLeds() function. These objects have static storage duration, so defining multiple controllers for the same strip will create a memory leak. It may also cause a slowdown of the code, as calling FastLED.show() will send the data to all <a class="elRef" href="http://fastled.io/docs/3.1/classCLEDController.html">CLEDController</a> objects regardless of whether they're currently in use or not.</p>
-<p >It is possible to work around this by declaring a <a class="elRef" href="http://fastled.io/docs/3.1/classCLEDController.html">CLEDController</a> object <em>without</em> calling the FastLED.addLeds function. This will avoid static storage duration and will avoid the memory leak / slowdown issues. The downside is that the strip will not work with FastLED.show() and the other linked list functions. The function to build the <a class="elRef" href="http://fastled.io/docs/3.1/classCLEDController.html">CLEDController</a> would also have to be templated, which means all of the values would need to be passed together in a single function. At that point it's simpler for the user to create the controller themselves and pass it to the existing <a class="el" href="class_fast_l_e_d___neo_pixel___variant.html#a4fcaef4545d98c1eff21c49816ab286a">FastLED_NeoPixel_Variant::begin(CLEDController&amp;)</a> function. </p>
+<p >The more significant complications is that the <a class="elRef" href="http://fastled.io/docs/3.1/class_c_l_e_d_controller.html">CLEDController</a> objects which send data to the strips are defined within a linked list using the FastLED.addLeds() function. These objects have static storage duration, so defining multiple controllers for the same strip will create a memory leak. It may also cause a slowdown of the code, as calling FastLED.show() will send the data to all <a class="elRef" href="http://fastled.io/docs/3.1/class_c_l_e_d_controller.html">CLEDController</a> objects regardless of whether they're currently in use or not.</p>
+<p >It is possible to work around this by declaring a <a class="elRef" href="http://fastled.io/docs/3.1/class_c_l_e_d_controller.html">CLEDController</a> object <em>without</em> calling the FastLED.addLeds function. This will avoid static storage duration and will avoid the memory leak / slowdown issues. The downside is that the strip will not work with FastLED.show() and the other linked list functions. The function to build the <a class="elRef" href="http://fastled.io/docs/3.1/class_c_l_e_d_controller.html">CLEDController</a> would also have to be templated, which means all of the values would need to be passed together in a single function. At that point it's simpler for the user to create the controller themselves and pass it to the existing <a class="el" href="class_fast_l_e_d___neo_pixel___variant.html#a4fcaef4545d98c1eff21c49816ab286a">FastLED_NeoPixel_Variant::begin(CLEDController&amp;)</a> function. </p>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="ga9c69ed867034244e709235b7b4e27e36" name="ga9c69ed867034244e709235b7b4e27e36"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga9c69ed867034244e709235b7b4e27e36">&#9670;&nbsp;</a></span>setPin()</h2>
@@ -153,7 +153,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p >UNIMPLEMENTED: Changes the strip length</p>
-<p >FastLED uses static LED data and compile-time LED data lengths. While it would be possible to reduce the length value for the strip to show less data, it is not possible to increase it without allocating a larger LED array and rebuilding the <a class="elRef" href="http://fastled.io/docs/3.1/classCLEDController.html">CLEDController</a> object.</p>
+<p >FastLED uses static LED data and compile-time LED data lengths. While it would be possible to reduce the length value for the strip to show less data, it is not possible to increase it without allocating a larger LED array and rebuilding the <a class="elRef" href="http://fastled.io/docs/3.1/class_c_l_e_d_controller.html">CLEDController</a> object.</p>
 <dl class="section see"><dt>See also</dt><dd>Adafruit_NeoPixel::setPin(uint16_t) </dd></dl>
 
 </div>
@@ -167,14 +167,14 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void FastLED_NeoPixel_Variant::updateType </td>
           <td>(</td>
-          <td class="paramtype"><a class="elRef" href="https://adafruit.github.io/Adafruit_NeoPixel/html/Adafruit__NeoPixel_8h.html#ab88a50d51bb5488df4379ff49c81fd72">neoPixelType</a>&#160;</td>
+          <td class="paramtype"><a class="elRef" href="https://adafruit.github.io/Adafruit_NeoPixel/html/_adafruit___neo_pixel_8h.html#ab88a50d51bb5488df4379ff49c81fd72">neoPixelType</a>&#160;</td>
           <td class="paramname"><em>T</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <p >UNIMPLEMENTED: Changes the pixel format of the strip</p>
-<p >The strip's color order is required at compile-time. Changing it during the program would require rebuilding the <a class="elRef" href="http://fastled.io/docs/3.1/classCLEDController.html">CLEDController</a> object with all necessary compile-time constants. </p>
+<p >The strip's color order is required at compile-time. Changing it during the program would require rebuilding the <a class="elRef" href="http://fastled.io/docs/3.1/class_c_l_e_d_controller.html">CLEDController</a> object with all necessary compile-time constants. </p>
 
 </div>
 </div>
