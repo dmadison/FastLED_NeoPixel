@@ -1,6 +1,6 @@
 # FastLED NeoPixel Library
 [![arduino-library-badge](https://www.ardu-badge.com/badge/FastLED%20NeoPixel.svg?)](https://www.ardu-badge.com/FastLED%20NeoPixel) [![Build Status](https://github.com/dmadison/FastLED_NeoPixel/workflows/build/badge.svg)](https://github.com/dmadison/FastLED_NeoPixel/actions/workflows/ci.yml) [![Documentation](https://img.shields.io/badge/Docs-Doxygen-blue.svg)](http://dmadison.github.io/FastLED_NeoPixel/docs/index.html)
-[![GPL license](https://img.shields.io/badge/License-MIT-orange.svg)](https://github.com/dmadison/FastLED_NeoPixel/blob/master/LICENSE)
+[![MIT license](https://img.shields.io/badge/License-MIT-orange.svg)](https://github.com/dmadison/FastLED_NeoPixel/blob/master/LICENSE)
 
 
 [FastLED NeoPixel](https://github.com/dmadison/FastLED_NeoPixel/) is an Arduino library that enables you to reuse most animations written for the [Adafruit NeoPixel library](https://github.com/adafruit/Adafruit_NeoPixel) with the [FastLED library](https://github.com/FastLED/FastLED) without having to rewrite them.
