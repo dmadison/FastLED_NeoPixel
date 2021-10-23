@@ -1,4 +1,4 @@
-<!-- HTML header for doxygen 1.9.1-->
+<!-- HTML header for doxygen 1.9.2-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -33,7 +33,7 @@
   <td id="projectlogo"><img alt="Logo" src="ws2812b_logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">FastLED NeoPixel
-   &#160;<span id="projectnumber">v1.0.1</span>
+   &#160;<span id="projectnumber">1e90134</span>
    </div>
   </td>
  </tr>
@@ -103,7 +103,7 @@ $(document).ready(function(){initNavTree('_fast_l_e_d___neo_pixel_8cpp.html','')
 <div class="textblock"><p >Source for the <a class="el" href="class_fast_l_e_d___neo_pixel.html" title="FastLED implementation of the Adafruit_NeoPixel class for WS2812B strips, with data.">FastLED_NeoPixel</a> library. </p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
-<!-- HTML footer for doxygen 1.9.1-->
+<!-- HTML footer for doxygen 1.9.2-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
@@ -114,11 +114,15 @@ $(document).ready(function(){initNavTree('_fast_l_e_d___neo_pixel_8cpp.html','')
 <!-- ... -->
 <script type="text/javascript">
   $(function() {
-      $(document).ready(function(){
-         toggleButton = document.createElement('doxygen-awesome-dark-mode-toggle')
-         toggleButton.title = "Toggle Light/Dark Mode"
-         document.getElementById("MSearchBox").parentNode.appendChild(toggleButton)
-     })
+    toggleButton = document.createElement('doxygen-awesome-dark-mode-toggle')
+    toggleButton.title = "Toggle Light/Dark Mode"
+    $(document).ready(function(){
+      document.getElementById("MSearchBox").parentNode.appendChild(toggleButton)
+    })
+    // every resize will remove the button, which is why it has to be added again:
+    $(window).resize(function(){
+      document.getElementById("MSearchBox").parentNode.appendChild(toggleButton)
+    })
   })
 </script>
 </body>
