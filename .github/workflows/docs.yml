@@ -13,6 +13,7 @@ jobs:
       - name: Fetch Repository Reference Info
         id: repo-info
         run: |
+          git fetch --prune --unshallow --tags
           RELEASE_TAG=${{ github.event.release.tag_name }}
           LATEST_TAG=$(git tag | grep -E '^v[0-9]' | sort -V | tail -1)
           GIT_SHA_SHORT=$(sed 's/\(.\{7\}\).*/\1/' <<< "$GITHUB_SHA")
