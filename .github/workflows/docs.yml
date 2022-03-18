@@ -73,7 +73,6 @@ jobs:
           publish_branch: gh-pages
           publish_dir: ./docs/generated/html
           destination_dir: docs
-          keep_files: true
           user_name: github-actions[bot]
           user_email: github-actions[bot]@users.noreply.github.com
           full_commit_message: Update docs for ${{ steps.repo-info.outputs.commit-message }}
