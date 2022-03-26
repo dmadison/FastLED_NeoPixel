@@ -9,6 +9,7 @@ Some of the benefits of using the FastLED library over Adafruit NeoPixel include
 
 * Static memory allocation for LED data
 * Non-destructive brightness control
+* Temporal dithering
 * High performance math and memory functions
 * A wide variety of supported LED chipsets
 

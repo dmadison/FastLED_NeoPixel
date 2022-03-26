@@ -181,7 +181,7 @@ public:
 	* This can be used for setting color correction or sending other LED data
 	* out on the LED pin used by the class.
 	* 
-	* <b>Warning:</b> This will return nullptr until the `begin()` function is
+	* @warning This will return nullptr until the `begin()` function is
 	* called with the controller instance.
 	*
 	* @return CLEDController pointer to the controller instance
