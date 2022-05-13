@@ -19,6 +19,6 @@ var class_fast_l_e_d___neo_pixel =
     [ "setPixelColor", "class_fast_l_e_d___neo_pixel.html#ac1e48b79546c7cf85d110236741f8d43", null ],
     [ "setPixelColor", "class_fast_l_e_d___neo_pixel.html#af5574bb0af0a726b9b4dc495560cf0a2", null ],
     [ "show", "class_fast_l_e_d___neo_pixel.html#ad6da16937910c4a4e61ea0c124e06e18", null ],
-    [ "updateLength", "class_fast_l_e_d___neo_pixel.html#gaee42e6961cdf7b0d3d7289958cd0179d", null ],
+    [ "updateLength", "class_fast_l_e_d___neo_pixel.html#aee42e6961cdf7b0d3d7289958cd0179d", null ],
     [ "updateType", "class_fast_l_e_d___neo_pixel.html#ga1f0fe38a78f15916e3bc9650e21eea3d", null ]
 ];

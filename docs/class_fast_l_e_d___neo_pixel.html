@@ -32,7 +32,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="ws2812b_logo.svg"/></td>
   <td id="projectalign">
-   <div id="projectname">FastLED NeoPixel<span id="projectnumber">&#160;v1.0.1</span>
+   <div id="projectname">FastLED NeoPixel<span id="projectnumber">&#160;v1.0.2</span>
    </div>
   </td>
  </tr>
@@ -133,6 +133,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad3e9a0fb01f4d6184a9b31a7fe7f5ccf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d85e1632594216d8e35ddfd1d85b9a0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fast_l_e_d___neo_pixel___variant.html#a5d85e1632594216d8e35ddfd1d85b9a0">clear</a> ()</td></tr>
 <tr class="separator:a5d85e1632594216d8e35ddfd1d85b9a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee42e6961cdf7b0d3d7289958cd0179d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fast_l_e_d___neo_pixel___variant.html#aee42e6961cdf7b0d3d7289958cd0179d">updateLength</a> (uint16_t n)</td></tr>
+<tr class="separator:aee42e6961cdf7b0d3d7289958cd0179d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5721503c2b4aa839d011c64a0db5efa6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fast_l_e_d___neo_pixel___variant.html#a5721503c2b4aa839d011c64a0db5efa6">canShow</a> ()</td></tr>
 <tr class="separator:a5721503c2b4aa839d011c64a0db5efa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a647a8ff96385faf2c9aea64d4b0a755e"><td class="memItemLeft" align="right" valign="top">uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fast_l_e_d___neo_pixel___variant.html#a647a8ff96385faf2c9aea64d4b0a755e">getPixels</a> () const</td></tr>
@@ -151,8 +153,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ga2a708b21fed7c2f3b8532a0b200854ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga9c69ed867034244e709235b7b4e27e36"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___unimplemented.html#ga9c69ed867034244e709235b7b4e27e36">setPin</a> (uint16_t p)</td></tr>
 <tr class="separator:ga9c69ed867034244e709235b7b4e27e36"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaee42e6961cdf7b0d3d7289958cd0179d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___unimplemented.html#gaee42e6961cdf7b0d3d7289958cd0179d">updateLength</a> (uint16_t n)</td></tr>
-<tr class="separator:gaee42e6961cdf7b0d3d7289958cd0179d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga1f0fe38a78f15916e3bc9650e21eea3d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___unimplemented.html#ga1f0fe38a78f15916e3bc9650e21eea3d">updateType</a> (<a class="elRef" href="https://adafruit.github.io/Adafruit_NeoPixel/html/_adafruit___neo_pixel_8h.html#ab88a50d51bb5488df4379ff49c81fd72">neoPixelType</a> T)</td></tr>
 <tr class="separator:ga1f0fe38a78f15916e3bc9650e21eea3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -904,6 +904,41 @@ template&lt;uint16_t NumLeds, uint8_t DataPin, uint32_t RgbOrder = GRB&gt; </div
 </table>
 </div><div class="memdoc">
 <p ><a class="elRef" href="https://adafruit.github.io/Adafruit_NeoPixel/html/class_adafruit___neo_pixel.html#afb00024000da81bcb6378c7052f77be3">Adafruit_NeoPixel::sine8(uint8_t)</a> </p>
+
+</div>
+</div>
+<a id="aee42e6961cdf7b0d3d7289958cd0179d" name="aee42e6961cdf7b0d3d7289958cd0179d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee42e6961cdf7b0d3d7289958cd0179d">&#9670;&nbsp;</a></span>updateLength()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void FastLED_NeoPixel_Variant::updateLength </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>n</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Change the length of the strip object. The strip data is blanked. The pin number and pixel format are unchanged.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">n</td><td>New length of the strip, in pixels. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section warning"><dt>Warning</dt><dd>This function does not re-allocate the LED array on the heap like <a class="elRef" href="https://adafruit.github.io/Adafruit_NeoPixel/html/class_adafruit___neo_pixel.html">Adafruit_NeoPixel</a>. It will not set a length longer than the length of the LED array, as passed in the constructor. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="elRef" href="https://adafruit.github.io/Adafruit_NeoPixel/html/class_adafruit___neo_pixel.html#a74e917093c2eb16848c4a09427680f79">Adafruit_NeoPixel::updateLength(uint16_t)</a> </dd></dl>
 
 </div>
 </div>
