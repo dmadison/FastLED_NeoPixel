@@ -118,6 +118,19 @@ public:
 	/** @ref Adafruit_NeoPixel::clear() */
 	void clear();
 
+	/**
+	* Change the length of the strip object. The strip data is blanked.
+	* The pin number and pixel format are unchanged.
+	* 
+	* @param n New length of the strip, in pixels.
+	* @warning This function does not re-allocate the LED array 
+	*          on the heap like Adafruit_NeoPixel. It will not set 
+	*          a length longer than the length of the LED array, as
+	*          passed in the constructor.
+	* @see Adafruit_NeoPixel::updateLength(uint16_t)
+	*/
+	void updateLength(uint16_t n);
+
 	/** @ref Adafruit_NeoPixel::canShow() */
 	bool canShow();
 
@@ -230,8 +243,8 @@ public:
 	* 
 	* Unlike the Adafruit_NeoPixel library the FastLED library uses
 	* compile-time constants for optimization purposes. Because of this it's
-	* not easy to change LED settings such as the strip type, strip size,
-	* color order, or data pin on the fly.
+	* not easy to change LED settings such as the strip type, color order,
+	* or data pin on the fly.
 	* 
 	* Because these arguments must be known at compile-time it's not possible
 	* to use a simple member function to set them. The functions would need to
@@ -271,20 +284,6 @@ public:
 	*/
 	void setPin(uint16_t p);
 
-
-	/**
-	* UNIMPLEMENTED: Changes the strip length
-	*
-	* FastLED uses static LED data and compile-time LED data lengths. While it
-	* would be possible to reduce the length value for the strip to show less
-	* data, it is not possible to increase it without allocating a larger LED
-	* array and rebuilding the CLEDController object.
-	*
-	* @see Adafruit_NeoPixel::setPin(uint16_t)
-	*/
-	void updateLength(uint16_t n);
-
-
 	/**
 	* UNIMPLEMENTED: Changes the pixel format of the strip
 	* 
@@ -306,7 +305,8 @@ private:
 	CRGB packedToColor(uint32_t c) const;
 
 	CRGB* const leds;          ///< Pointer to LED data, in CRGB array
-	const uint16_t numLEDs;    ///< Number of RGB LEDs in the strip
+	const uint16_t maxLEDs;    ///< Number of RGB LEDs in the CRGB array
+	uint16_t numLEDs;          ///< Number of RGB LEDs in the current strip
 	CLEDController* controller = nullptr;  ///< Pointer to controller object for latching LED data
 
 	uint8_t brightness = 255;  ///< Strip brightness, 0-255

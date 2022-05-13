@@ -37,6 +37,7 @@
 FastLED_NeoPixel_Variant::FastLED_NeoPixel_Variant(CRGB* ledPtr, uint16_t nLeds)
 	:
 	leds(ledPtr),
+	maxLEDs(nLeds),
 	numLEDs(nLeds)
 {
 	endTime = micros();
@@ -48,7 +49,6 @@ void FastLED_NeoPixel_Variant::begin(CLEDController& ctrl) {
 
 void FastLED_NeoPixel_Variant::show() {
 	if (controller != nullptr) {
-		// controller->showLeds(brightness);
 		controller->show(leds, numLEDs, brightness);
 		endTime = micros();
 	}
@@ -80,6 +80,12 @@ void FastLED_NeoPixel_Variant::fill(uint32_t c, uint16_t first, uint16_t count) 
 
 void FastLED_NeoPixel_Variant::clear() {
 	fill_solid(leds, numLEDs, CRGB::Black);
+}
+
+void FastLED_NeoPixel_Variant::updateLength(uint16_t n) {
+	if (n > maxLEDs) return;  // out of range
+	numLEDs = n;
+	clear();
 }
 
 bool FastLED_NeoPixel_Variant::canShow() {
