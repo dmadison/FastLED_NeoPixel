@@ -73,7 +73,7 @@ void FastLED_NeoPixel_Variant::fill(uint32_t c, uint16_t first, uint16_t count) 
 
 	if (first == 0 && count == 0) count = numLEDs;  // if auto, fill from start to end
 	else if (first != 0 && count == 0) count = numLEDs - first;  // if only first is set, fill from first to end
-	else count = min(count, numLEDs - first);  // if both are set, fill from first to end without overrunning buffer
+	else count = _min(count, numLEDs - first);  // if both are set, fill from first to end without overrunning buffer
 
 	fill_solid(leds + first, count, packedToColor(c));
 }
