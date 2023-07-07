@@ -45,8 +45,9 @@ var searchData=
   ['softwarespioutput_42',['SoftwareSPIOutput',['http://fastled.io/docs/3.1/class_software_s_p_i_output.html',1,'']]],
   ['spioutput_43',['SPIOutput',['http://fastled.io/docs/3.1/class_s_p_i_output.html',1,'']]],
   ['squarewave8_44',['squarewave8',['http://fastled.io/docs/3.1/group__lib8tion.html#ga17ae8fcfd9c485bb1120d908f836637a',1,]]],
-  ['strandtest_2eino_45',['Strandtest.ino',['../_strandtest_8ino.html',1,'']]],
-  ['stripvariant_2eino_46',['StripVariant.ino',['../_strip_variant_8ino.html',1,'']]],
-  ['subfromrgb_47',['subFromRGB',['http://fastled.io/docs/3.1/class_c_pixel_view.html#ac9bc563c153ee6968df3d50648295a07',1,'CPixelView']]],
-  ['subtractfromrgb_48',['subtractFromRGB',['http://fastled.io/docs/3.1/struct_c_r_g_b.html#a3ab9b89e7dcab423d1cb936e41378902',1,'CRGB']]]
+  ['str2order_45',['str2order',['https://adafruit.github.io/Adafruit_NeoPixel/html/class_adafruit___neo_pixel.html#a5cec6fe17e75f8d607df305e2fa9db5c',1,'Adafruit_NeoPixel']]],
+  ['strandtest_2eino_46',['Strandtest.ino',['../_strandtest_8ino.html',1,'']]],
+  ['stripvariant_2eino_47',['StripVariant.ino',['../_strip_variant_8ino.html',1,'']]],
+  ['subfromrgb_48',['subFromRGB',['http://fastled.io/docs/3.1/class_c_pixel_view.html#ac9bc563c153ee6968df3d50648295a07',1,'CPixelView']]],
+  ['subtractfromrgb_49',['subtractFromRGB',['http://fastled.io/docs/3.1/struct_c_r_g_b.html#a3ab9b89e7dcab423d1cb936e41378902',1,'CRGB']]]
 ];

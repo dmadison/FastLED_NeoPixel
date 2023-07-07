@@ -29,6 +29,7 @@ var searchData=
   ['sine8_26',['sine8',['../class_fast_l_e_d___neo_pixel___variant.html#a136c0abf57273a9977d512acd1e0c052',1,'FastLED_NeoPixel_Variant::sine8()'],['https://adafruit.github.io/Adafruit_NeoPixel/html/class_adafruit___neo_pixel.html#afb00024000da81bcb6378c7052f77be3',1,'Adafruit_NeoPixel::sine8()']]],
   ['size_27',['size',['http://fastled.io/docs/3.1/class_c_pixel_view.html#afe3500651fc4eb5770aeb01728aa0a1e',1,'CPixelView::size()'],['http://fastled.io/docs/3.1/class_c_l_e_d_controller.html#a63f75cf7e55cf8da46db5fd27110bb3e',1,'CLEDController::size()'],['http://fastled.io/docs/3.1/class_c_fast_l_e_d.html#a18fba22754d2a1a206fc5db8d24a92d0',1,'CFastLED::size()']]],
   ['squarewave8_28',['squarewave8',['http://fastled.io/docs/3.1/group__lib8tion.html#ga17ae8fcfd9c485bb1120d908f836637a',1,]]],
-  ['subfromrgb_29',['subFromRGB',['http://fastled.io/docs/3.1/class_c_pixel_view.html#ac9bc563c153ee6968df3d50648295a07',1,'CPixelView']]],
-  ['subtractfromrgb_30',['subtractFromRGB',['http://fastled.io/docs/3.1/struct_c_r_g_b.html#a3ab9b89e7dcab423d1cb936e41378902',1,'CRGB']]]
+  ['str2order_29',['str2order',['https://adafruit.github.io/Adafruit_NeoPixel/html/class_adafruit___neo_pixel.html#a5cec6fe17e75f8d607df305e2fa9db5c',1,'Adafruit_NeoPixel']]],
+  ['subfromrgb_30',['subFromRGB',['http://fastled.io/docs/3.1/class_c_pixel_view.html#ac9bc563c153ee6968df3d50648295a07',1,'CPixelView']]],
+  ['subtractfromrgb_31',['subtractFromRGB',['http://fastled.io/docs/3.1/struct_c_r_g_b.html#a3ab9b89e7dcab423d1cb936e41378902',1,'CRGB']]]
 ];

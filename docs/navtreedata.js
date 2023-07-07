@@ -25,13 +25,7 @@
 var NAVTREE =
 [
   [ "FastLED NeoPixel", "index.html", [
-    [ "FastLED NeoPixel Library", "index.html", [
-      [ "Quick Start", "index.html#autotoc_md1", [
-        [ "Advanced Setup", "index.html#autotoc_md2", null ]
-      ] ],
-      [ "Limitations", "index.html#autotoc_md3", null ],
-      [ "License", "index.html#autotoc_md4", null ]
-    ] ],
+    [ "FastLED NeoPixel Library", "index.html", "index" ],
     [ "Modules", "modules.html", "modules" ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
