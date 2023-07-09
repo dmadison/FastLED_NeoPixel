@@ -2438,7 +2438,7 @@ SKIP_FUNCTION_MACROS   = YES
 # run, you must also specify the path to the tagfile here.
 
 TAGFILES               = "libraries/Adafruit_NeoPixel/neopixel.tag = https://adafruit.github.io/Adafruit_NeoPixel/html/" \
-                         "libraries/FastLED/fastled.tag = http://fastled.io/docs/3.1/"
+                         "libraries/FastLED/docs/fastled.tag = http://fastled.io/docs/"
 
 # When a file name is specified after GENERATE_TAGFILE, doxygen will create a
 # tag file that is based on the input files it reads. See section "Linking to
