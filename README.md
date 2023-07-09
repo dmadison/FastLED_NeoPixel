@@ -13,7 +13,7 @@ Some of the benefits of using the FastLED library over Adafruit NeoPixel include
 * High performance math and memory functions
 * A wide variety of supported LED chipsets
 
-If you are looking to use a NeoPixel LED strip with FastLED and have *not* written any code, *you do not need this library!* FastLED supports NeoPixel (WS2812B) LEDs natively. See the FastLED [examples](https://github.com/FastLED/FastLED/blob/master/examples/Blink/Blink.ino) and [documentation](http://fastled.io/docs/3.1/class_w_s2812_b.html) for more information.
+If you are looking to use a NeoPixel LED strip with FastLED and have *not* written any code, *you do not need this library!* FastLED supports NeoPixel (WS2812B) LEDs natively. See the FastLED [examples](https://github.com/FastLED/FastLED/blob/master/examples/Blink/Blink.ino) and [documentation](http://fastled.io/docs/) for more information.
 
 ## Quick Start
 
