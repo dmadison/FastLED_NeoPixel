@@ -1,5 +1,30 @@
 var searchData=
 [
-  ['carbonarc_0',['CarbonArc',['http://fastled.io/docs/3.1/group___color_enums.html#gga251e9e8dc2c7b981786b71706522b2a9aa9dab8ea30eb2a41c48956480b7014d1',1,'CarbonArc(Global Namespace)'],['http://fastled.io/docs/3.1/group___color_enums.html#gga251e9e8dc2c7b981786b71706522b2a9aa9dab8ea30eb2a41c48956480b7014d1',1,'CarbonArc(Global Namespace)'],['http://fastled.io/docs/3.1/group___color_enums.html#gga251e9e8dc2c7b981786b71706522b2a9aa9dab8ea30eb2a41c48956480b7014d1',1,'CarbonArc(Global Namespace)']]],
-  ['clearbluesky_1',['ClearBlueSky',['http://fastled.io/docs/3.1/group___color_enums.html#gga251e9e8dc2c7b981786b71706522b2a9acb80944aa5bed3031b19f1e1101f6a9a',1,'ClearBlueSky(Global Namespace)'],['http://fastled.io/docs/3.1/group___color_enums.html#gga251e9e8dc2c7b981786b71706522b2a9acb80944aa5bed3031b19f1e1101f6a9a',1,'ClearBlueSky(Global Namespace)'],['http://fastled.io/docs/3.1/group___color_enums.html#gga251e9e8dc2c7b981786b71706522b2a9acb80944aa5bed3031b19f1e1101f6a9a',1,'ClearBlueSky(Global Namespace)']]]
+  ['b_0',['b',['http://fastled.io/docs/struct_c_r_g_b.html#aa3ca469ee3a18e04896b0b1da5a1d66d',1,'CRGB::b'],['http://fastled.io/docs/union_t_r_g_b_gradient_palette_entry_union.html#a905a298057e897242d071222f27e6b89',1,'TRGBGradientPaletteEntryUnion::b'],['http://fastled.io/docs/unionbitswap__type.html#a21d28531c900f117713dbc9a6bf5091f',1,'bitswap_type::b']]],
+  ['b0_1',['b0',['http://fastled.io/docs/structsub4.html#a4bb994c2ed456e701d2ab4d57d669317',1,'sub4']]],
+  ['b1_2',['b1',['http://fastled.io/docs/structsub4.html#a76b8ba906d7eb00ebe2806a38a9c91f2',1,'sub4']]],
+  ['b2_3',['b2',['http://fastled.io/docs/structsub4.html#aa1b5735d6214d3b9ab991a2a44c7e4a8',1,'sub4']]],
+  ['b3_4',['b3',['http://fastled.io/docs/structsub4.html#a67403de17343f076596c0aaf840e3eaf',1,'sub4']]],
+  ['b4_5',['b4',['http://fastled.io/docs/structsub4.html#adada5fd53b415622cb805db1d6878259',1,'sub4']]],
+  ['b5_6',['b5',['http://fastled.io/docs/structsub4.html#a7ecbd68603a75da0bd98609c30c037cc',1,'sub4']]],
+  ['b6_7',['b6',['http://fastled.io/docs/structsub4.html#a15d95cc4d8ac1b1de28e28dd9da25659',1,'sub4']]],
+  ['b7_8',['b7',['http://fastled.io/docs/structsub4.html#a8ecfb8a25a14c7bedd272c11beeb90b9',1,'sub4']]],
+  ['b_5fm16_5finterleave_9',['b_m16_interleave',['http://fastled.io/docs/group___trig.html#gadc654138105ff193df0fbc7a0c21806c',1,]]],
+  ['backward_5fhues_10',['BACKWARD_HUES',['http://fastled.io/docs/group___color_fills.html#gga097bfc6a8459d95e8afa8a16b9e6476aaeafbd6b84aa73f663c8ab89f53875306',1,]]],
+  ['begun_11',['begun',['https://adafruit.github.io/Adafruit_NeoPixel/html/class_adafruit___neo_pixel.html#a2215c42c8ed043dc43d28592c2c1d750',1,'Adafruit_NeoPixel']]],
+  ['beige_12',['Beige',['http://fastled.io/docs/struct_c_r_g_b.html#aeb40a08b7cb90c1e21bd408261558b99a435829f3208f8961c3241c56a9326268',1,'CRGB']]],
+  ['bgr_13',['BGR',['http://fastled.io/docs/group___pixel_types.html#gga3c26d076773aa0f331d3066b46dbc6a4a4a19a93c929964c201e01c8352dc8b9c',1,]]],
+  ['bisque_14',['Bisque',['http://fastled.io/docs/struct_c_r_g_b.html#aeb40a08b7cb90c1e21bd408261558b99a21927430e53394c5261fa4b86da5833e',1,'CRGB']]],
+  ['black_15',['Black',['http://fastled.io/docs/struct_c_r_g_b.html#aeb40a08b7cb90c1e21bd408261558b99abde6007b13c22c05d888db898ec814a7',1,'CRGB']]],
+  ['blacklightfluorescent_16',['BlackLightFluorescent',['http://fastled.io/docs/group___color_enums.html#gga251e9e8dc2c7b981786b71706522b2a9aa836f719c6010ef3df781a5d9e1863b1',1,]]],
+  ['blanchedalmond_17',['BlanchedAlmond',['http://fastled.io/docs/struct_c_r_g_b.html#aeb40a08b7cb90c1e21bd408261558b99a1b60dcb14d5d819f2b715400b6b2c8b8',1,'CRGB']]],
+  ['blue_18',['blue',['http://fastled.io/docs/struct_c_r_g_b.html#a90bc5170416c8e09fcd468675a319718',1,'CRGB']]],
+  ['blue_19',['Blue',['http://fastled.io/docs/struct_c_r_g_b.html#aeb40a08b7cb90c1e21bd408261558b99ab16fc35a3771b58550363f15d2003976',1,'CRGB']]],
+  ['blueviolet_20',['BlueViolet',['http://fastled.io/docs/struct_c_r_g_b.html#aeb40a08b7cb90c1e21bd408261558b99aac1ffcb23f7abd0ae8e7021e86adcbc9',1,'CRGB']]],
+  ['boffset_21',['bOffset',['https://adafruit.github.io/Adafruit_NeoPixel/html/class_adafruit___neo_pixel.html#aeb2fc94bc0568778b3a643977a8b6a95',1,'Adafruit_NeoPixel']]],
+  ['brg_22',['BRG',['http://fastled.io/docs/group___pixel_types.html#gga3c26d076773aa0f331d3066b46dbc6a4aa23d02d9d56089f1419a6c2eee27d16f',1,]]],
+  ['brightness_23',['brightness',['https://adafruit.github.io/Adafruit_NeoPixel/html/class_adafruit___neo_pixel.html#a983265c34a4008d2c7a9eeb12eebea84',1,'Adafruit_NeoPixel']]],
+  ['brown_24',['Brown',['http://fastled.io/docs/struct_c_r_g_b.html#aeb40a08b7cb90c1e21bd408261558b99a54d9c4c1ca1c7b47825046e3f0fb09db',1,'CRGB']]],
+  ['burlywood_25',['BurlyWood',['http://fastled.io/docs/struct_c_r_g_b.html#aeb40a08b7cb90c1e21bd408261558b99a7ef32fb720c92b6cca965ba81de3d094',1,'CRGB']]],
+  ['bytes_26',['bytes',['http://fastled.io/docs/unionbitswap__type.html#aabab33af46370b5de438c01670d0e2cb',1,'bitswap_type::bytes'],['http://fastled.io/docs/union_t_r_g_b_gradient_palette_entry_union.html#a8f3ee1dde5a25ab7cb3455b343f0ee45',1,'TRGBGradientPaletteEntryUnion::bytes']]]
 ];

@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['strandtest_2eino_0',['Strandtest.ino',['../_strandtest_8ino.html',1,'']]],
-  ['stripvariant_2eino_1',['StripVariant.ino',['../_strip_variant_8ino.html',1,'']]]
+  ['hsv2rgb_2ecpp_0',['hsv2rgb.cpp',['http://fastled.io/docs/hsv2rgb_8cpp.html',1,'']]],
+  ['hsv2rgb_2eh_1',['hsv2rgb.h',['http://fastled.io/docs/hsv2rgb_8h.html',1,'']]]
 ];

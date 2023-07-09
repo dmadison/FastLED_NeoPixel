@@ -1,5 +1,30 @@
 var searchData=
 [
-  ['pin_0',['pin',['https://adafruit.github.io/Adafruit_NeoPixel/html/class_adafruit___neo_pixel.html#aaa3ce258bc1ded4228bff0277101cdb5',1,'Adafruit_NeoPixel']]],
-  ['pixels_1',['pixels',['https://adafruit.github.io/Adafruit_NeoPixel/html/class_adafruit___neo_pixel.html#a0667c23748aa7b3dc04e7c59916308cd',1,'Adafruit_NeoPixel']]]
+  ['lavacolors_5fp_0',['LavaColors_p',['http://fastled.io/docs/group___predefined_palettes.html#gaae33b6ee55a67b1dfa47462036d8d006',1,]]],
+  ['lavender_1',['Lavender',['http://fastled.io/docs/struct_c_r_g_b.html#aeb40a08b7cb90c1e21bd408261558b99a5756068b8c263c0c0d3432292ae24947',1,'CRGB']]],
+  ['lavenderblush_2',['LavenderBlush',['http://fastled.io/docs/struct_c_r_g_b.html#aeb40a08b7cb90c1e21bd408261558b99abf04591ba6a342bbbb34f78ea17df923',1,'CRGB']]],
+  ['lawngreen_3',['LawnGreen',['http://fastled.io/docs/struct_c_r_g_b.html#aeb40a08b7cb90c1e21bd408261558b99a4a358345d945688d563a5904566c5c94',1,'CRGB']]],
+  ['leds_4',['leds',['http://fastled.io/docs/class_c_pixel_view.html#a21679cd86fce5882d1b04aa78f2dd4ab',1,'CPixelView']]],
+  ['lemonchiffon_5',['LemonChiffon',['http://fastled.io/docs/struct_c_r_g_b.html#aeb40a08b7cb90c1e21bd408261558b99a41857a8a5b4bd419786d2ce4dae937c7',1,'CRGB']]],
+  ['len_6',['len',['http://fastled.io/docs/class_c_pixel_view.html#afdb7d7da8fc3a387d5df31e69da1cc71',1,'CPixelView']]],
+  ['lightblue_7',['LightBlue',['http://fastled.io/docs/struct_c_r_g_b.html#aeb40a08b7cb90c1e21bd408261558b99ae59608233a1cc562ebafadb29fe4b622',1,'CRGB']]],
+  ['lightcoral_8',['LightCoral',['http://fastled.io/docs/struct_c_r_g_b.html#aeb40a08b7cb90c1e21bd408261558b99a7a09d9dfd13ff922f87a139811bcb714',1,'CRGB']]],
+  ['lightcyan_9',['LightCyan',['http://fastled.io/docs/struct_c_r_g_b.html#aeb40a08b7cb90c1e21bd408261558b99aadb2cbf05ad6d0c556f93bb8bd1fc415',1,'CRGB']]],
+  ['lightgoldenrodyellow_10',['LightGoldenrodYellow',['http://fastled.io/docs/struct_c_r_g_b.html#aeb40a08b7cb90c1e21bd408261558b99acec67d41bc38d38b5f06465002c58fa7',1,'CRGB']]],
+  ['lightgreen_11',['LightGreen',['http://fastled.io/docs/struct_c_r_g_b.html#aeb40a08b7cb90c1e21bd408261558b99aa040c4ee3ec838e5ec99f34193c0a236',1,'CRGB']]],
+  ['lightgrey_12',['LightGrey',['http://fastled.io/docs/struct_c_r_g_b.html#aeb40a08b7cb90c1e21bd408261558b99aabbc63f8dd78aaab60a49b2872240ffa',1,'CRGB']]],
+  ['lightpink_13',['LightPink',['http://fastled.io/docs/struct_c_r_g_b.html#aeb40a08b7cb90c1e21bd408261558b99a0f5098eb2e8a9458bee9f6923b480c0e',1,'CRGB']]],
+  ['lightsalmon_14',['LightSalmon',['http://fastled.io/docs/struct_c_r_g_b.html#aeb40a08b7cb90c1e21bd408261558b99a73c5c95234e17bb4f79ef709d4741b2b',1,'CRGB']]],
+  ['lightseagreen_15',['LightSeaGreen',['http://fastled.io/docs/struct_c_r_g_b.html#aeb40a08b7cb90c1e21bd408261558b99a86114e59ba00cbcca43d1317d839b08e',1,'CRGB']]],
+  ['lightskyblue_16',['LightSkyBlue',['http://fastled.io/docs/struct_c_r_g_b.html#aeb40a08b7cb90c1e21bd408261558b99abafdf30f8cb7ef8dd931ada7f4752039',1,'CRGB']]],
+  ['lightslategray_17',['LightSlateGray',['http://fastled.io/docs/struct_c_r_g_b.html#aeb40a08b7cb90c1e21bd408261558b99a8c1c959808c9652ff628d7b6aea23d1a',1,'CRGB']]],
+  ['lightslategrey_18',['LightSlateGrey',['http://fastled.io/docs/struct_c_r_g_b.html#aeb40a08b7cb90c1e21bd408261558b99adf32a459492af2f2e963dcb365d614e8',1,'CRGB']]],
+  ['lightsteelblue_19',['LightSteelBlue',['http://fastled.io/docs/struct_c_r_g_b.html#aeb40a08b7cb90c1e21bd408261558b99aa932426846f8be6a355dcd405b81751a',1,'CRGB']]],
+  ['lightyellow_20',['LightYellow',['http://fastled.io/docs/struct_c_r_g_b.html#aeb40a08b7cb90c1e21bd408261558b99a1f48003dee0a649aa6ff945fb6eb993e',1,'CRGB']]],
+  ['lime_21',['Lime',['http://fastled.io/docs/struct_c_r_g_b.html#aeb40a08b7cb90c1e21bd408261558b99a79c563c5a7e3bf2e9d3f390e9bc62851',1,'CRGB']]],
+  ['limegreen_22',['LimeGreen',['http://fastled.io/docs/struct_c_r_g_b.html#aeb40a08b7cb90c1e21bd408261558b99a9a5e85f66f4cd2393deed860d760b4ec',1,'CRGB']]],
+  ['linearblend_23',['LINEARBLEND',['http://fastled.io/docs/group___palette_colors.html#gga565c04e626af4a3ec44bf97edc607b4ea7a36ed58acc67878c9dd1b6a83910f06',1,]]],
+  ['linearblend_5fnowrap_24',['LINEARBLEND_NOWRAP',['http://fastled.io/docs/group___palette_colors.html#gga565c04e626af4a3ec44bf97edc607b4ea7bca22698a242b60273a072b10848014',1,]]],
+  ['linen_25',['Linen',['http://fastled.io/docs/struct_c_r_g_b.html#aeb40a08b7cb90c1e21bd408261558b99a96354f6e0d06d2cb26d874c25dc82a48',1,'CRGB']]],
+  ['longest_5fhues_26',['LONGEST_HUES',['http://fastled.io/docs/group___color_fills.html#gga097bfc6a8459d95e8afa8a16b9e6476aa682d0d9751da3543dc1f84a75040b54c',1,]]]
 ];

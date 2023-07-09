@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['fast_20math_20functions_0',['Fast math functions',['http://fastled.io/docs/3.1/group__lib8tion.html',1,'']]]
+  ['dimming_20and_20brightening_20functions_0',['Dimming and Brightening Functions',['http://fastled.io/docs/group___dimming.html',1,'']]]
 ];

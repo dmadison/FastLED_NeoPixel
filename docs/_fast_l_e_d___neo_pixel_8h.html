@@ -107,7 +107,7 @@ $(document).ready(function(){initNavTree('_fast_l_e_d___neo_pixel_8h.html',''); 
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;Arduino.h&gt;</code><br />
 <code>#include &lt;<a class="elRef" href="https://adafruit.github.io/Adafruit_NeoPixel/html/_adafruit___neo_pixel_8h.html">Adafruit_NeoPixel.h</a>&gt;</code><br />
-<code>#include &lt;<a class="elRef" href="http://fastled.io/docs/3.1/_fast_l_e_d_8h.html">FastLED.h</a>&gt;</code><br />
+<code>#include &lt;<a class="elRef" href="http://fastled.io/docs/_fast_l_e_d_8h.html">FastLED.h</a>&gt;</code><br />
 </div>
 <p><a href="_fast_l_e_d___neo_pixel_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -117,12 +117,12 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">FastLED implementation of the <a class="elRef" href="https://adafruit.github.io/Adafruit_NeoPixel/html/class_adafruit___neo_pixel.html">Adafruit_NeoPixel</a> class. Base class for all strips.  <a href="class_fast_l_e_d___neo_pixel___variant.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fast_l_e_d___neo_pixel.html">FastLED_NeoPixel&lt; NumLeds, DataPin, RgbOrder &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">FastLED implementation of the <a class="elRef" href="https://adafruit.github.io/Adafruit_NeoPixel/html/class_adafruit___neo_pixel.html">Adafruit_NeoPixel</a> class for <a class="elRef" href="http://fastled.io/docs/3.1/class_w_s2812_b.html">WS2812B</a> strips, with data.  <a href="class_fast_l_e_d___neo_pixel.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">FastLED implementation of the <a class="elRef" href="https://adafruit.github.io/Adafruit_NeoPixel/html/class_adafruit___neo_pixel.html">Adafruit_NeoPixel</a> class for <a class="elRef" href="http://fastled.io/docs/class_w_s2812_b.html">WS2812B</a> strips, with data.  <a href="class_fast_l_e_d___neo_pixel.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a7bbe9f7180dcbb6b4bfb09ec03efb380"><td class="memItemLeft" align="right" valign="top">constexpr EOrder&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_fast_l_e_d___neo_pixel_8h.html#a7bbe9f7180dcbb6b4bfb09ec03efb380">NeoToEOrder</a> (uint32_t neoOrder)</td></tr>
+<tr class="memitem:a7bbe9f7180dcbb6b4bfb09ec03efb380"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://fastled.io/docs/cpp__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a> <a class="elRef" href="http://fastled.io/docs/group___pixel_types.html#ga3c26d076773aa0f331d3066b46dbc6a4">EOrder</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_fast_l_e_d___neo_pixel_8h.html#a7bbe9f7180dcbb6b4bfb09ec03efb380">NeoToEOrder</a> (uint32_t neoOrder)</td></tr>
 <tr class="separator:a7bbe9f7180dcbb6b4bfb09ec03efb380"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -138,7 +138,7 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr EOrder NeoToEOrder </td>
+          <td class="memname"><a class="elRef" href="http://fastled.io/docs/cpp__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a> <a class="elRef" href="http://fastled.io/docs/group___pixel_types.html#ga3c26d076773aa0f331d3066b46dbc6a4">EOrder</a> NeoToEOrder </td>
           <td>(</td>
           <td class="paramtype">uint32_t&#160;</td>
           <td class="paramname"><em>neoOrder</em></td><td>)</td>
@@ -155,7 +155,7 @@ Functions</h2></td></tr>
 <p>For C++11 compatibility this uses chained ternaries instead of a more elegant switch statement.</p>
 <p>This accounts for all RGB <a class="elRef" href="https://adafruit.github.io/Adafruit_NeoPixel/html/class_adafruit___neo_pixel.html">Adafruit_NeoPixel</a> color orders, including both 800 KHz and 400 KHz speeds. It also handles FastLED color orders (EOrder).</p>
 <p>Although the speed values are evaluated because they modify the underlying number, passing a speed value to this function has no effect on the output speed of the FastLED library. This function purely handles color order.</p>
-<p>FastLED colors enumeration values (EOrder) are evaluated first, then high speed (default) NeoPixel color orders, then finally low speed NeoPixel color orders. If no match is found then 'GRB' color order is returned. This is the default color order used by most NeoPixel (<a class="elRef" href="http://fastled.io/docs/3.1/class_w_s2812_b.html">WS2812B</a>) strips.</p>
+<p>FastLED colors enumeration values (EOrder) are evaluated first, then high speed (default) NeoPixel color orders, then finally low speed NeoPixel color orders. If no match is found then 'GRB' color order is returned. This is the default color order used by most NeoPixel (<a class="elRef" href="http://fastled.io/docs/class_w_s2812_b.html">WS2812B</a>) strips.</p>
 <p>RGBW color order is purposefully <em>not</em> evaluated. The FastLED library does not support RGBW and any attempts to use an RGBW strip with it are going to end badly ([PartsNotIncluded.com hackery aside] (<a href="https://www.partsnotincluded.com/fastled-rgbw-neopixels-sk6812/">https://www.partsnotincluded.com/fastled-rgbw-neopixels-sk6812/</a>)). If they are passed to the function, RGBW color order defines will use the default GRB order.</p>
 <p>This function is auto-generated from a Python script. See the neo_order_generator.py script in the <code>extras</code> folder. </p>
 

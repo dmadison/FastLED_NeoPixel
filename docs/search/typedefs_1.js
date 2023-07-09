@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['fract16_0',['fract16',['http://fastled.io/docs/3.1/group__lib8tion.html#gaaf46b9f719ef3bdb574f8e967af6dbb5',1,]]],
-  ['fract8_1',['fract8',['http://fastled.io/docs/3.1/group__lib8tion.html#ga5d6d013429a5b8a09d564d6137217644',1,]]]
+  ['const_5fiterator_0',['const_iterator',['http://fastled.io/docs/class_c_pixel_view.html#ad44698b19b0ad875e066c30583777772',1,'CPixelView']]],
+  ['crgbset_1',['CRGBSet',['http://fastled.io/docs/group___pixel_set.html#gaf5de5d996b3399837264a10ba96df667',1,]]]
 ];

@@ -153,7 +153,7 @@ $(document).ready(function(){initNavTree('_strip_variant_8ino-example.html','');
 <div class="line"><span class="comment">* that contains the LED data, and the strip object itself (passing the LEDs</span></div>
 <div class="line"><span class="comment">* to the constructor).</span></div>
 <div class="line"><span class="comment">*/</span></div>
-<div class="line"><a id="_a0" name="_a0"></a><a class="code hl_structRef" href="http://fastled.io/docs/3.1/struct_c_r_g_b.html">CRGB</a> leds[NUM_LEDS];</div>
+<div class="line"><a id="_a0" name="_a0"></a><a class="code hl_structRef" href="http://fastled.io/docs/struct_c_r_g_b.html">CRGB</a> leds[NUM_LEDS];</div>
 <div class="line"><a id="_a1" name="_a1"></a><a class="code hl_class" href="class_fast_l_e_d___neo_pixel___variant.html">FastLED_NeoPixel_Variant</a> strip(leds, NUM_LEDS);</div>
 <div class="line"> </div>
 <div class="line"> </div>
@@ -167,7 +167,7 @@ $(document).ready(function(){initNavTree('_strip_variant_8ino-example.html','');
 <div class="line"><span class="comment">    * Although this is using the typical WS2812B strip setup, you can customize</span></div>
 <div class="line"><span class="comment">    * it for any strip configuration, including strips that use SPI (data + clock).</span></div>
 <div class="line"><span class="comment">    */</span></div>
-<div class="line">    strip.begin(FastLED.addLeds&lt;<a id="_a2" name="_a2"></a><a class="code hl_classRef" href="http://fastled.io/docs/3.1/class_w_s2812_b.html">WS2812B</a>, DATA_PIN, GRB&gt;(leds, NUM_LEDS));</div>
+<div class="line">    strip.begin(<a id="a2" name="a2"></a><a class="code hl_variableRef" href="http://fastled.io/docs/_fast_l_e_d_8cpp.html#a7077a6a69b1339a4c04f4bb9ecc0ad3f">FastLED</a>.<a id="a3" name="a3"></a><a class="code hl_functionRef" href="http://fastled.io/docs/class_c_fast_l_e_d.html#afd7928d822589740af6e23b2d510cf3f">addLeds</a>&lt;<a id="_a4" name="_a4"></a><a class="code hl_classRef" href="http://fastled.io/docs/class_w_s2812_b.html">WS2812B</a>, DATA_PIN, <a id="a5" name="a5"></a>GRB&gt;(leds, NUM_LEDS));</div>
 <div class="line">    strip.setBrightness(BRIGHTNESS);</div>
 <div class="line">}</div>
 <div class="line"> </div>
@@ -186,10 +186,12 @@ $(document).ready(function(){initNavTree('_strip_variant_8ino-example.html','');
 <div class="line">        delay(wait);</div>
 <div class="line">    }</div>
 <div class="line">}</div>
+<div class="ttc" id="a_fast_l_e_d_8cpp_html_a7077a6a69b1339a4c04f4bb9ecc0ad3f"><div class="ttname"><a href="http://fastled.io/docs/_fast_l_e_d_8cpp.html#a7077a6a69b1339a4c04f4bb9ecc0ad3f">FastLED</a></div><div class="ttdeci">CFastLED FastLED</div></div>
 <div class="ttc" id="a_fast_l_e_d___neo_pixel_8h_html"><div class="ttname"><a href="_fast_l_e_d___neo_pixel_8h.html">FastLED_NeoPixel.h</a></div><div class="ttdoc">Header for the FastLED_NeoPixel library.</div></div>
+<div class="ttc" id="aclass_c_fast_l_e_d_html_afd7928d822589740af6e23b2d510cf3f"><div class="ttname"><a href="http://fastled.io/docs/class_c_fast_l_e_d.html#afd7928d822589740af6e23b2d510cf3f">CFastLED::addLeds</a></div><div class="ttdeci">static CLEDController &amp; addLeds(CLEDController *pLed, struct CRGB *data, int nLedsOrOffset, int nLedsIfOffset=0)</div></div>
 <div class="ttc" id="aclass_fast_l_e_d___neo_pixel___variant_html"><div class="ttname"><a href="class_fast_l_e_d___neo_pixel___variant.html">FastLED_NeoPixel_Variant</a></div><div class="ttdoc">FastLED implementation of the Adafruit_NeoPixel class. Base class for all strips.</div><div class="ttdef"><b>Definition</b> FastLED_NeoPixel.h:62</div></div>
-<div class="ttc" id="aclass_w_s2812_b_html"><div class="ttname"><a href="http://fastled.io/docs/3.1/class_w_s2812_b.html">WS2812B</a></div></div>
-<div class="ttc" id="astruct_c_r_g_b_html"><div class="ttname"><a href="http://fastled.io/docs/3.1/struct_c_r_g_b.html">CRGB</a></div></div>
+<div class="ttc" id="aclass_w_s2812_b_html"><div class="ttname"><a href="http://fastled.io/docs/class_w_s2812_b.html">WS2812B</a></div></div>
+<div class="ttc" id="astruct_c_r_g_b_html"><div class="ttname"><a href="http://fastled.io/docs/struct_c_r_g_b.html">CRGB</a></div></div>
 </div><!-- fragment --> </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.9.3-->

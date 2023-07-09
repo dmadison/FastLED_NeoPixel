@@ -1,4 +1,5 @@
 var group___noise =
 [
-    [ "inoise16_raw", "http://fastled.io/docs/3.1/group___noise.html#ga810bdc406dcf8fd5b7add9041aa18abd", null ]
+    [ "Noise Fill Functions", "http://fastled.io/docs/group___noise_fill.html", "group___noise_fill" ],
+    [ "Noise Generation Functions", "http://fastled.io/docs/group___noise_generation.html", "group___noise_generation" ]
 ];

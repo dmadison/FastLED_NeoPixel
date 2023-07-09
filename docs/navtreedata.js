@@ -49,7 +49,8 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"_blink_8ino-example.html"
+"_blink_8ino-example.html",
+"group___palette_classes.html#ga4173693bfea9b72f0f73085e9a7318a8"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

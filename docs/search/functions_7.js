@@ -1,6 +1,13 @@
 var searchData=
 [
-  ['head_0',['head',['http://fastled.io/docs/3.1/class_c_l_e_d_controller.html#a8b412ff1fd4833d0db63a175d40a2ee0',1,'CLEDController']]],
-  ['hours8_1',['hours8',['http://fastled.io/docs/3.1/group__lib8tion.html#ga837f5a688998f3340994613944e47d41',1,]]],
-  ['hsv2rgb_5frainbow_2',['hsv2rgb_rainbow',['http://fastled.io/docs/3.1/group___pixeltypes.html#ga06ee0f21e1bf430ea547244f6ed4add8',1,]]]
+  ['has_0',['has',['http://fastled.io/docs/struct_pixel_controller.html#aeb6c796bf7def8f0e330f57776a2edd0',1,'PixelController']]],
+  ['hasport_1',['hasPort',['http://fastled.io/docs/struct_____f_l___p_o_r_t___i_n_f_o.html#a407030c6570cb7463ac9a76355abae35',1,'__FL_PORT_INFO']]],
+  ['head_2',['head',['http://fastled.io/docs/class_c_l_e_d_controller.html#a8b412ff1fd4833d0db63a175d40a2ee0',1,'CLEDController']]],
+  ['heatcolor_3',['HeatColor',['http://fastled.io/docs/group___color_fills.html#gac5c6b83ec07d310385a430f9f0336530',1,]]],
+  ['hi_4',['hi',['http://fastled.io/docs/class_fast_pin.html#a4f20ac7720b2e6aa838f98ab8feaa6e9',1,'FastPin::hi()'],['http://fastled.io/docs/class_pin.html#a5a2884f01bb407fd628f57553eaaa9f4',1,'Pin::hi()'],['http://fastled.io/docs/class_pin.html#a60e2715b756d236bf8efdffae663b568',1,'Pin::hi(FASTLED_REGISTER port_ptr_t port)'],['http://fastled.io/docs/class_fast_pin.html#add52474362013eb37903fc832e2abdc2',1,'FastPin::hi()']]],
+  ['hival_5',['hival',['http://fastled.io/docs/class_fast_pin.html#a2270a3882cf8646ce8abcae29cf6923a',1,'FastPin::hival()'],['http://fastled.io/docs/class_pin.html#adf6b32998416f1ea0314bb0c09279276',1,'Pin::hival()']]],
+  ['hours8_6',['hours8',['http://fastled.io/docs/group___timekeeping.html#ga837f5a688998f3340994613944e47d41',1,]]],
+  ['hsv2rgb_5frainbow_7',['hsv2rgb_rainbow',['http://fastled.io/docs/group___h_s_v2_r_g_b.html#gab316cfeb8bd5f37d8faaf761ad3c834b',1,'hsv2rgb_rainbow(const struct CHSV &amp;hsv, struct CRGB &amp;rgb)(Global Namespace)'],['http://fastled.io/docs/group___h_s_v2_r_g_b.html#gaf722826b0b5d16450ca3da28382e7eb3',1,'hsv2rgb_rainbow(const struct CHSV *phsv, struct CRGB *prgb, int numLeds)(Global Namespace)'],['http://fastled.io/docs/group___pixel_types.html#ga06ee0f21e1bf430ea547244f6ed4add8',1,'hsv2rgb_rainbow(const CHSV &amp;hsv, CRGB &amp;rgb)(Global Namespace)']]],
+  ['hsv2rgb_5fraw_8',['hsv2rgb_raw',['http://fastled.io/docs/group___h_s_v2_r_g_b.html#ga66f61978949a6830b138d1bf08257019',1,'hsv2rgb_raw(const struct CHSV &amp;hsv, struct CRGB &amp;rgb)(Global Namespace)'],['http://fastled.io/docs/group___h_s_v2_r_g_b.html#ga5ca233d1f5f70b5efdabc405f9bcf8ec',1,'hsv2rgb_raw(const struct CHSV *phsv, struct CRGB *prgb, int numLeds)(Global Namespace)']]],
+  ['hsv2rgb_5fspectrum_9',['hsv2rgb_spectrum',['http://fastled.io/docs/group___h_s_v2_r_g_b.html#ga704160ddb9173c3420a3dbfb44674440',1,'hsv2rgb_spectrum(const struct CHSV &amp;hsv, struct CRGB &amp;rgb)(Global Namespace)'],['http://fastled.io/docs/group___h_s_v2_r_g_b.html#gaabe3b0d539d6e15bc4ba86e10ec98fcc',1,'hsv2rgb_spectrum(const struct CHSV *phsv, struct CRGB *prgb, int numLeds)(Global Namespace)']]]
 ];

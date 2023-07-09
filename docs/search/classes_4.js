@@ -1,9 +1,12 @@
 var searchData=
 [
-  ['gw6205_0',['GW6205',['http://fastled.io/docs/3.1/class_g_w6205.html',1,'']]],
-  ['gw6205_5f400_1',['GW6205_400',['http://fastled.io/docs/3.1/class_g_w6205__400.html',1,'']]],
-  ['gw6205controller400khz_2',['GW6205Controller400Khz',['http://fastled.io/docs/3.1/class_g_w6205_controller400_khz.html',1,'']]],
-  ['gw6205controller400khz_3c_20data_5fpin_2c_20rgb_5forder_20_3e_3',['GW6205Controller400Khz&lt; DATA_PIN, RGB_ORDER &gt;',['http://fastled.io/docs/3.1/class_g_w6205_controller400_khz.html',1,'']]],
-  ['gw6205controller800khz_4',['GW6205Controller800Khz',['http://fastled.io/docs/3.1/class_g_w6205_controller800_khz.html',1,'']]],
-  ['gw6205controller800khz_3c_20data_5fpin_2c_20rgb_5forder_20_3e_5',['GW6205Controller800Khz&lt; DATA_PIN, RGB_ORDER &gt;',['http://fastled.io/docs/3.1/class_g_w6205_controller800_khz.html',1,'']]]
+  ['data_5fnop_0',['DATA_NOP',['http://fastled.io/docs/class_d_a_t_a___n_o_p.html',1,'']]],
+  ['dmxserial_1',['DMXSERIAL',['http://fastled.io/docs/class_d_m_x_s_e_r_i_a_l.html',1,'']]],
+  ['dmxserialcontroller_2',['DMXSerialController',['http://fastled.io/docs/class_d_m_x_serial_controller.html',1,'']]],
+  ['dmxserialcontroller_3c_20rgb_5forder_20_3e_3',['DMXSerialController&lt; RGB_ORDER &gt;',['http://fastled.io/docs/class_d_m_x_serial_controller.html',1,'']]],
+  ['dmxsimple_4',['DMXSIMPLE',['http://fastled.io/docs/class_d_m_x_s_i_m_p_l_e.html',1,'']]],
+  ['dmxsimplecontroller_5',['DMXSimpleController',['http://fastled.io/docs/class_d_m_x_simple_controller.html',1,'']]],
+  ['dmxsimplecontroller_3c_20data_5fpin_2c_20rgb_5forder_20_3e_6',['DMXSimpleController&lt; DATA_PIN, RGB_ORDER &gt;',['http://fastled.io/docs/class_d_m_x_simple_controller.html',1,'']]],
+  ['dp1903controller400khz_7',['DP1903Controller400Khz',['http://fastled.io/docs/class_d_p1903_controller400_khz.html',1,'']]],
+  ['dp1903controller800khz_8',['DP1903Controller800Khz',['http://fastled.io/docs/class_d_p1903_controller800_khz.html',1,'']]]
 ];

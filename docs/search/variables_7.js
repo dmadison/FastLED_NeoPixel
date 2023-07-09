@@ -1,4 +1,19 @@
 var searchData=
 [
-  ['is800khz_0',['is800KHz',['https://adafruit.github.io/Adafruit_NeoPixel/html/class_adafruit___neo_pixel.html#a56919a5e954b1a87ef965c75c6cc68a1',1,'Adafruit_NeoPixel']]]
+  ['h_0',['h',['http://fastled.io/docs/struct_c_h_s_v.html#a702ca7b9075491f46f7b78e017108ae0',1,'CHSV']]],
+  ['halogen_1',['Halogen',['http://fastled.io/docs/group___color_enums.html#gga251e9e8dc2c7b981786b71706522b2a9ae5ec76aa869b51e645e9f226dfee4b79',1,]]],
+  ['heatcolors_5fp_2',['HeatColors_p',['http://fastled.io/docs/group___predefined_palettes.html#ga8932790994cfe78cf535fce88502d649',1,]]],
+  ['highnoonsun_3',['HighNoonSun',['http://fastled.io/docs/group___color_enums.html#gga251e9e8dc2c7b981786b71706522b2a9ac9a2b02351fcc9ad08ef4e2748530e76',1,]]],
+  ['highpressuresodium_4',['HighPressureSodium',['http://fastled.io/docs/group___color_enums.html#gga251e9e8dc2c7b981786b71706522b2a9a677f1d00c77b396f7a90e87166fc239a',1,]]],
+  ['honeydew_5',['Honeydew',['http://fastled.io/docs/struct_c_r_g_b.html#aeb40a08b7cb90c1e21bd408261558b99ac64646915c9a7fa35d0e6f6daca2f57b',1,'CRGB']]],
+  ['hotpink_6',['HotPink',['http://fastled.io/docs/struct_c_r_g_b.html#aeb40a08b7cb90c1e21bd408261558b99a156c0077e866fb53deb0eb1e2c7b0be9',1,'CRGB']]],
+  ['hue_7',['hue',['http://fastled.io/docs/struct_c_h_s_v.html#a53265b749b2df39b7a0be28a482dc80c',1,'CHSV']]],
+  ['hue_5faqua_8',['HUE_AQUA',['http://fastled.io/docs/group___pixel_types.html#gga6585ae9f9a54e6a1fcb7c5f985931fb3ae3b550fd64402d0c7e2eaa5f2349688a',1,]]],
+  ['hue_5fblue_9',['HUE_BLUE',['http://fastled.io/docs/group___pixel_types.html#gga6585ae9f9a54e6a1fcb7c5f985931fb3a2294eed5180e5dac2551b04cf9956fed',1,]]],
+  ['hue_5fgreen_10',['HUE_GREEN',['http://fastled.io/docs/group___pixel_types.html#gga6585ae9f9a54e6a1fcb7c5f985931fb3af70d11b3afe026cd07940359c89b2454',1,]]],
+  ['hue_5forange_11',['HUE_ORANGE',['http://fastled.io/docs/group___pixel_types.html#gga6585ae9f9a54e6a1fcb7c5f985931fb3a0908faa334c40567fac7aec352fb70f2',1,]]],
+  ['hue_5fpink_12',['HUE_PINK',['http://fastled.io/docs/group___pixel_types.html#gga6585ae9f9a54e6a1fcb7c5f985931fb3a3dc206b5aaa1d60d34bd43ed538e5cf8',1,]]],
+  ['hue_5fpurple_13',['HUE_PURPLE',['http://fastled.io/docs/group___pixel_types.html#gga6585ae9f9a54e6a1fcb7c5f985931fb3ac0e779174cb178ec5b7cec6e71e12be3',1,]]],
+  ['hue_5fred_14',['HUE_RED',['http://fastled.io/docs/group___pixel_types.html#gga6585ae9f9a54e6a1fcb7c5f985931fb3af99ca29e78f56261625c2f83f8d9d641',1,]]],
+  ['hue_5fyellow_15',['HUE_YELLOW',['http://fastled.io/docs/group___pixel_types.html#gga6585ae9f9a54e6a1fcb7c5f985931fb3a85db131d39162ebb09c84a1da9fa4bfd',1,]]]
 ];

@@ -1,4 +1,24 @@
 var searchData=
 [
-  ['directsunlight_0',['DirectSunlight',['http://fastled.io/docs/3.1/group___color_enums.html#gga251e9e8dc2c7b981786b71706522b2a9a890e0555ad95071fa4391a5775a38621',1,'DirectSunlight(Global Namespace)'],['http://fastled.io/docs/3.1/group___color_enums.html#gga251e9e8dc2c7b981786b71706522b2a9a890e0555ad95071fa4391a5775a38621',1,'DirectSunlight(Global Namespace)'],['http://fastled.io/docs/3.1/group___color_enums.html#gga251e9e8dc2c7b981786b71706522b2a9a890e0555ad95071fa4391a5775a38621',1,'DirectSunlight(Global Namespace)']]]
+  ['c0_0',['c0',['http://fastled.io/docs/structsub4.html#af19bf78fa32695ff3266f7817144d534',1,'sub4']]],
+  ['c1_1',['c1',['http://fastled.io/docs/structsub4.html#a201d80311b1db45a5be5f8f15c2d1fce',1,'sub4']]],
+  ['c2_2',['c2',['http://fastled.io/docs/structsub4.html#af62353204ff783dca725ecb17e1be6ef',1,'sub4']]],
+  ['c3_3',['c3',['http://fastled.io/docs/structsub4.html#a05ac5ed449c60006c191d62dbc67e4c9',1,'sub4']]],
+  ['c4_4',['c4',['http://fastled.io/docs/structsub4.html#a189aa548f04856f56c1178a1c5366537',1,'sub4']]],
+  ['c5_5',['c5',['http://fastled.io/docs/structsub4.html#ad1e3617efc9dc608c1ede8fda0190bbf',1,'sub4']]],
+  ['c6_6',['c6',['http://fastled.io/docs/structsub4.html#a192ea23edbf6c67b74049484ca13375a',1,'sub4']]],
+  ['c7_7',['c7',['http://fastled.io/docs/structsub4.html#a5215342ef5fbc83a2df41951b19ccd85',1,'sub4']]],
+  ['cadetblue_8',['CadetBlue',['http://fastled.io/docs/struct_c_r_g_b.html#aeb40a08b7cb90c1e21bd408261558b99abfac54dc3fb7a79f061e3f3b9f8b9c4f',1,'CRGB']]],
+  ['candle_9',['Candle',['http://fastled.io/docs/group___color_enums.html#gga251e9e8dc2c7b981786b71706522b2a9a0bec85069af34e723fe1f9617e5cb168',1,]]],
+  ['carbonarc_10',['CarbonArc',['http://fastled.io/docs/group___color_enums.html#gga251e9e8dc2c7b981786b71706522b2a9aa9dab8ea30eb2a41c48956480b7014d1',1,]]],
+  ['chartreuse_11',['Chartreuse',['http://fastled.io/docs/struct_c_r_g_b.html#aeb40a08b7cb90c1e21bd408261558b99ae78f4f54a27fa19c5414f59933c6b613',1,'CRGB']]],
+  ['chocolate_12',['Chocolate',['http://fastled.io/docs/struct_c_r_g_b.html#aeb40a08b7cb90c1e21bd408261558b99a93daf580c511f1159c43955b62205ef7',1,'CRGB']]],
+  ['clearbluesky_13',['ClearBlueSky',['http://fastled.io/docs/group___color_enums.html#gga251e9e8dc2c7b981786b71706522b2a9acb80944aa5bed3031b19f1e1101f6a9a',1,]]],
+  ['cloudcolors_5fp_14',['CloudColors_p',['http://fastled.io/docs/group___predefined_palettes.html#ga87035362d30149da93d150cfd968bc61',1,]]],
+  ['coolwhitefluorescent_15',['CoolWhiteFluorescent',['http://fastled.io/docs/group___color_enums.html#gga251e9e8dc2c7b981786b71706522b2a9a5065c2444cbe23675387c063e3d87aee',1,]]],
+  ['coral_16',['Coral',['http://fastled.io/docs/struct_c_r_g_b.html#aeb40a08b7cb90c1e21bd408261558b99a0eb660cf80e31fe4430f67773eb9f440',1,'CRGB']]],
+  ['cornflowerblue_17',['CornflowerBlue',['http://fastled.io/docs/struct_c_r_g_b.html#aeb40a08b7cb90c1e21bd408261558b99a6d4cc75cc139dfd43fc840ef95614b41',1,'CRGB']]],
+  ['cornsilk_18',['Cornsilk',['http://fastled.io/docs/struct_c_r_g_b.html#aeb40a08b7cb90c1e21bd408261558b99a0c19f62e978c313810b1e1d452a5e21f',1,'CRGB']]],
+  ['crimson_19',['Crimson',['http://fastled.io/docs/struct_c_r_g_b.html#aeb40a08b7cb90c1e21bd408261558b99a494a57b3f495dbb06a5c9f7df7fe8b3a',1,'CRGB']]],
+  ['cyan_20',['Cyan',['http://fastled.io/docs/struct_c_r_g_b.html#aeb40a08b7cb90c1e21bd408261558b99a96f458f1053c14623329794e3e705dea',1,'CRGB']]]
 ];

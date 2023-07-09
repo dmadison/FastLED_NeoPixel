@@ -1,0 +1,26 @@
+var searchData=
+[
+  ['s_0',['s',['http://fastled.io/docs/struct_c_h_s_v.html#acdb71a233c17387e95d843f15c2ef8a8',1,'CHSV']]],
+  ['saddlebrown_1',['SaddleBrown',['http://fastled.io/docs/struct_c_r_g_b.html#aeb40a08b7cb90c1e21bd408261558b99a40afb53972f8fdf939579c83732f657d',1,'CRGB']]],
+  ['salmon_2',['Salmon',['http://fastled.io/docs/struct_c_r_g_b.html#aeb40a08b7cb90c1e21bd408261558b99a09306ce97ac75af4ba707d6070e20070',1,'CRGB']]],
+  ['sandybrown_3',['SandyBrown',['http://fastled.io/docs/struct_c_r_g_b.html#aeb40a08b7cb90c1e21bd408261558b99a5c2543c0555eeca82683c7b9dd430cb2',1,'CRGB']]],
+  ['sat_4',['sat',['http://fastled.io/docs/struct_c_h_s_v.html#a60bec85c29eb484a65b65a6a0e2ea0a3',1,'CHSV']]],
+  ['saturation_5',['saturation',['http://fastled.io/docs/struct_c_h_s_v.html#a8b01830b969cf28b156baf1ace0d62a9',1,'CHSV']]],
+  ['sb_5f_6',['sb_',['http://fastled.io/docs/union_i_e_e_e754binary32__t.html#af508748b513decbeb3065aa8460a0619',1,'IEEE754binary32_t']]],
+  ['sb_5fexphi7_7',['sb_exphi7',['http://fastled.io/docs/union_i_e_e_e754binary32__t.html#ab90825263a890ecc448a428ef8aadd54',1,'IEEE754binary32_t']]],
+  ['seagreen_8',['SeaGreen',['http://fastled.io/docs/struct_c_r_g_b.html#aeb40a08b7cb90c1e21bd408261558b99a96a5e3421d5ba2646dc6fb06c1b9932e',1,'CRGB']]],
+  ['seashell_9',['Seashell',['http://fastled.io/docs/struct_c_r_g_b.html#aeb40a08b7cb90c1e21bd408261558b99a29620709e3d00ae9244d761ac7b2cb05',1,'CRGB']]],
+  ['shortest_5fhues_10',['SHORTEST_HUES',['http://fastled.io/docs/group___color_fills.html#gga097bfc6a8459d95e8afa8a16b9e6476aadc8aca2a3622de4cab05ca49cb740d03',1,]]],
+  ['sienna_11',['Sienna',['http://fastled.io/docs/struct_c_r_g_b.html#aeb40a08b7cb90c1e21bd408261558b99a020b9f869e5279a46ba83c4b109848ee',1,'CRGB']]],
+  ['signbit_12',['signbit',['http://fastled.io/docs/union_i_e_e_e754binary32__t.html#a37bee81c74782e027d67199f81074bd3',1,'IEEE754binary32_t']]],
+  ['silver_13',['Silver',['http://fastled.io/docs/struct_c_r_g_b.html#aeb40a08b7cb90c1e21bd408261558b99a3b48c8058f1b90d745a5c94bdb38fc23',1,'CRGB']]],
+  ['skyblue_14',['SkyBlue',['http://fastled.io/docs/struct_c_r_g_b.html#aeb40a08b7cb90c1e21bd408261558b99a7365c1d1636db7a184e544fad373d1b0',1,'CRGB']]],
+  ['slateblue_15',['SlateBlue',['http://fastled.io/docs/struct_c_r_g_b.html#aeb40a08b7cb90c1e21bd408261558b99a399de447abec7c91844070f73fed1149',1,'CRGB']]],
+  ['slategray_16',['SlateGray',['http://fastled.io/docs/struct_c_r_g_b.html#aeb40a08b7cb90c1e21bd408261558b99ac1b87f3babb84b57e3c3ed532d43dfb2',1,'CRGB']]],
+  ['slategrey_17',['SlateGrey',['http://fastled.io/docs/struct_c_r_g_b.html#aeb40a08b7cb90c1e21bd408261558b99a1190005afb214be40a6302e82767bcd1',1,'CRGB']]],
+  ['snow_18',['Snow',['http://fastled.io/docs/struct_c_r_g_b.html#aeb40a08b7cb90c1e21bd408261558b99af5a6d928331158fdb7cb84a143b9cc52',1,'CRGB']]],
+  ['sodiumvapor_19',['SodiumVapor',['http://fastled.io/docs/group___color_enums.html#gga251e9e8dc2c7b981786b71706522b2a9aa0d9bb26657105cc2e63e91b75a38dd4',1,]]],
+  ['springgreen_20',['SpringGreen',['http://fastled.io/docs/struct_c_r_g_b.html#aeb40a08b7cb90c1e21bd408261558b99ac401f99bf21224c369ac76f9770b74b2',1,'CRGB']]],
+  ['standardfluorescent_21',['StandardFluorescent',['http://fastled.io/docs/group___color_enums.html#gga251e9e8dc2c7b981786b71706522b2a9abfb2193168a3c15178665eb6b91568ef',1,]]],
+  ['steelblue_22',['SteelBlue',['http://fastled.io/docs/struct_c_r_g_b.html#aeb40a08b7cb90c1e21bd408261558b99a6a94dc91b16e639be9016925fc27596f',1,'CRGB']]]
+];

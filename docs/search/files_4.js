@@ -1,4 +1,20 @@
 var searchData=
 [
-  ['noise_2eh_0',['noise.h',['http://fastled.io/docs/3.1/noise_8h.html',1,'']]]
+  ['fastled_2ecpp_0',['FastLED.cpp',['http://fastled.io/docs/_fast_l_e_d_8cpp.html',1,'']]],
+  ['fastled_2eh_1',['FastLED.h',['http://fastled.io/docs/_fast_l_e_d_8h.html',1,'']]],
+  ['fastled_5fconfig_2eh_2',['fastled_config.h',['http://fastled.io/docs/fastled__config_8h.html',1,'']]],
+  ['fastled_5fdelay_2eh_3',['fastled_delay.h',['http://fastled.io/docs/fastled__delay_8h.html',1,'']]],
+  ['fastled_5fneopixel_2ecpp_4',['FastLED_NeoPixel.cpp',['../_fast_l_e_d___neo_pixel_8cpp.html',1,'']]],
+  ['fastled_5fneopixel_2eh_5',['FastLED_NeoPixel.h',['../_fast_l_e_d___neo_pixel_8h.html',1,'']]],
+  ['fastled_5fprogmem_2eh_6',['fastled_progmem.h',['http://fastled.io/docs/fastled__progmem_8h.html',1,'']]],
+  ['fastpin_2eh_7',['fastpin.h',['http://fastled.io/docs/fastpin_8h.html',1,'']]],
+  ['fastspi_2eh_8',['fastspi.h',['http://fastled.io/docs/fastspi_8h.html',1,'']]],
+  ['fastspi_5fbitbang_2eh_9',['fastspi_bitbang.h',['http://fastled.io/docs/fastspi__bitbang_8h.html',1,'']]],
+  ['fastspi_5fdma_2eh_10',['fastspi_dma.h',['http://fastled.io/docs/fastspi__dma_8h.html',1,'']]],
+  ['fastspi_5fnop_2eh_11',['fastspi_nop.h',['http://fastled.io/docs/fastspi__nop_8h.html',1,'']]],
+  ['fastspi_5fref_2eh_12',['fastspi_ref.h',['http://fastled.io/docs/fastspi__ref_8h.html',1,'']]],
+  ['fastspi_5ftypes_2eh_13',['fastspi_types.h',['http://fastled.io/docs/fastspi__types_8h.html',1,'']]],
+  ['fire2012_2eino_14',['Fire2012.ino',['http://fastled.io/docs/_fire2012_8ino.html',1,'']]],
+  ['fire2012withpalette_2eino_15',['Fire2012WithPalette.ino',['http://fastled.io/docs/_fire2012_with_palette_8ino.html',1,'']]],
+  ['firstlight_2eino_16',['FirstLight.ino',['http://fastled.io/docs/_first_light_8ino.html',1,'']]]
 ];

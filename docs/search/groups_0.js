@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['bit_20swapping_2frotate_0',['Bit swapping/rotate',['http://fastled.io/docs/3.1/group___bitswap.html',1,'']]]
+  ['basic_20math_20operations_0',['Basic Math Operations',['http://fastled.io/docs/group___math.html',1,'']]]
 ];
