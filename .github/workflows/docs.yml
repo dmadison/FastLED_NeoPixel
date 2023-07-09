@@ -49,14 +49,10 @@ jobs:
           doxygen Doxyfile
 
       - name: Generate FastLED Tag File
-        env:
-          FASTLED_VERSION: 3.1.7  # latest version published on GitHub pages
         run: |
-          git clone --depth 1 --branch ${{ env.FASTLED_VERSION }} https://github.com/FastLED/FastLED docs/libraries/FastLED
-          cd docs/libraries/FastLED
-          doxygen -g
+          git clone https://github.com/FastLED/FastLED docs/libraries/FastLED
+          cd docs/libraries/FastLED/docs
           sed -i -E 's/(GENERATE_TAGFILE\s*=\s*).*/\1 fastled.tag/g' Doxyfile
-          sed -i -E 's/(CASE_SENSE_NAMES\s*=\s*).*/\1 NO/g' Doxyfile
           doxygen Doxyfile
 
       - name: Generate Docs
