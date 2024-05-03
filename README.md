@@ -50,6 +50,8 @@ If you already have an existing `CRGB` array, or if you'd like to use an LED str
 
 Due to FastLED's need for compile-time constants, the functions to change the LED count, LED pin, and color order are not implemented. Additionally, because FastLED does not organize color data in memory based on the color channel order of the strip, animations that use the underlying LED data pointer (`uint8_t* getPixels()`) may not function correctly.
 
+The FastLED library does not support RGBW strips. If you need RGBW support you cannot use this library.
+
 For more information on the functional differences between the two libraries, [see the documentation](http://dmadison.github.io/FastLED_NeoPixel/docs/modules.html).
 
 ## License
